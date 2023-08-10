@@ -98,7 +98,7 @@ h2 {
 }
 
 a.tbl-biru {
-    background: #364f6b;
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgb(14, 17, 224) 100%);
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
@@ -108,12 +108,12 @@ a.tbl-biru {
 }
 
 a.tbl-biru:hover {
-    background: #fc5185;
+    background: linear-gradient(90deg, rgb(228, 21, 100) 0%, rgb(204, 83, 134) 100%);
     text-decoration: none;
 }
 
 a.tbl-pink {
-    background: #fc5185;
+    background: linear-gradient(90deg, rgb(209, 72, 163) 0%, rgb(224, 14, 101) 100%);
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
@@ -123,7 +123,7 @@ a.tbl-pink {
 }
 
 a.tbl-pink:hover {
-     background: #364f6b;
+    background: linear-gradient(90deg, rgb(14, 17, 224) 0%, rgba(34,193,195,1) 100%);
     text-decoration: none;
 }
 
@@ -132,3 +132,7 @@ p {
     padding: 10px 0px 10px 0px;
 }
 
+.col-md-4{
+    color: #364f6b;
+    text-align: center;
+}
